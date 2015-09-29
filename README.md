@@ -16,7 +16,9 @@ fork完成之后clone到本地（本文是桌面Desktop）或直接下载到本�
 
 `$ mkdir 你想创建的版本` eg. 0.0.3
 进入0.0.3文件夹 执行创建podspec文件的命令
+
 `$ pod spec create NHEnDecryptor`
+
 创建完成后如图:
 ![image](https://github.com/iFindTA/screenshots/blob/master/podspec3.png)
 ##### step3 Edit podSpec file

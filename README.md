@@ -7,8 +7,10 @@
 fork完成之后clone到本地（本文是桌面Desktop）或直接下载到本地，解压后如图![image](https://ss)
 ##### step2 create podspec file
 打开终端进入Specs-Matser->Specs你会看到好多别人已经提交的Specs
+
 `$ mkdir 你想创建的Pod的名字` eg.NHEnDecryptor
 进入文件夹NHEnDecryptor
+
 `$ mkdir 你想创建的版本` eg. 0.0.3
 进入0.0.3文件夹 执行创建podspec文件的命令
 `$ pod spec create NHEnDecryptor`

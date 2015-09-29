@@ -3,8 +3,11 @@
 #### 看网上的介绍多多少少都不全，这里只针对一种情况作阐述，目的是让想把自己成果分享给大家的思密达们少走弯路
 #### 本文以项目已经在github上托管，想把项目中某些文件做成Pod库的情况为例来阐述
 ##### step1 fork Specs files
-首先进入官方（https://github.com/CocoaPods/Specs），fork一份podSpecs，此过程估计时间较长，耐心等待，如图![image］(https://ss)
-fork完成之后clone到本地（本文是桌面Desktop）或直接下载到本地，解压后如图![image](https://ss)
+首先进入官方（https://github.com/CocoaPods/Specs），fork一份podSpecs，此过程估计时间较长，耐心等待，如图:
+![image](https://github.com/iFindTA/screenshots/blob/master/podspec1.jpg)
+![image](https://github.com/iFindTA/screenshots/blob/master/podspec2.jpg)
+fork完成之后clone到本地（本文是桌面Desktop）或直接下载到本地，解压后如图:
+![image](https://github.com/iFindTA/screenshots/blob/master/podspec0.png)
 ##### step2 create podspec file
 打开终端进入Specs-Matser->Specs你会看到好多别人已经提交的Specs
 
@@ -14,7 +17,8 @@ fork完成之后clone到本地（本文是桌面Desktop）或直接下载到本�
 `$ mkdir 你想创建的版本` eg. 0.0.3
 进入0.0.3文件夹 执行创建podspec文件的命令
 `$ pod spec create NHEnDecryptor`
-创建完成后如图![image](https://ss)
+创建完成后如图:
+![image](https://github.com/iFindTA/screenshots/blob/master/podspec3.png)
 ##### step3 Edit podSpec file
 ```
 Pod::Spec.new do |s|
@@ -68,6 +72,7 @@ NHEnDecryptor.podspec passed validation.
     (1.760894249 s).
 
 ```
-看到上述提示说明你已经提交成功了，等待CocoaPods团队的审核吧，很快就会通过，然后就可以通过终端搜索到你的成果了！
+看到上述提示说明你已经提交成功了，等待CocoaPods团队的审核吧，很快就会通过，然后就可以通过终端搜索到你的成果了！如图：
+![image](https://github.com/iFindTA/screenshots/blob/master/podspec4.png)
 
 #### 好了！恭喜你！至此你已经学会了如何将自己的成果分享给大家了！赶快行动吧

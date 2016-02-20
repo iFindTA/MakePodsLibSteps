@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT(LICENSE)"
   s.author             = { "nanhujiaju" => "nanhujiaju@163.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/iFindTA/NHEnDecryptPro.git", :tag => "0.0.3" }
+  s.source       = { :git => "https://github.com/iFindTA/NHEnDecryptPro.git", :tag => s.version.to_s }
   s.source_files  = "NHEnDecryptPro/Security/*.{h,a}"
   s.public_header_files = "NHEnDecryptPro/Security/*.h"
 
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   # s.dependency "JSONKit", "~> 1.4"
-  @end
+  end
 
 ```
 关于这段的设置代码很简单易懂 实在不懂或有其他需求可上网查一下

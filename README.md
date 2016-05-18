@@ -1,7 +1,9 @@
-# Cocoapods-Spec-Started-
-### 如何将自己的成果做成Pod库供别人使用
-#### 看网上的介绍多多少少都不全，这里只针对一种情况作阐述，目的是让想把自己成果分享给大家的思密达们少走弯路
-#### 本文以项目已经在github上托管，想把项目中某些文件做成Pod库的情况为例来阐述
+# 如何做自己的Pod库！
+```
+ 	看网上的介绍多多少少都不全，这里只针对一种情况(项目已经在github上托管)作阐述，目的是让想把自己成果分享给大家的思密达们少走弯路
+	 本文以介绍两种创建方式：标准创建和快捷创建！
+```
+####标准创建：
 ##### step1 fork Specs files
 首先进入官方（https://github.com/CocoaPods/Specs），fork一份podSpecs，此过程估计时间较长，耐心等待，如图:
 ![image](https://github.com/iFindTA/screenshots/blob/master/podspec1.jpg)
@@ -76,5 +78,17 @@ NHEnDecryptor.podspec passed validation.
 ```
 看到上述提示说明你已经提交成功了，等待CocoaPods团队的审核吧，很快就会通过，然后就可以通过终端搜索到你的成果了！如图：
 ![image](https://github.com/iFindTA/screenshots/blob/master/podspec4.png)
+
+####快捷创建：
+##### step1 create podspec file
+```
+	直接进入项目根目录，创建xxxxxxxxx.podspec 文件
+```
+```
+	$ vim xxxxxx.podspec
+    $ "ESC"
+    $ :wq
+```
+#### step next 直接转到“标准创建 step 3”继续执行即可
 
 #### 好了！恭喜你！至此你已经学会了如何将自己的成果分享给大家了！赶快行动吧

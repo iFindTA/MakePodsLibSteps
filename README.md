@@ -53,6 +53,8 @@ Pod::Spec.new do |s|
 ##### step4 verify podspec file
 验证你的设置和github上的代码是否正确，执行代码：
 `pod spec lint NHEnDecryptor.podspec ` 
+如果你的sources 文件中引入了动态库,如CommonCrypto,则执行代码：
+`pod spec lint --allow-warnings --use-libraries --verbose`
 这是比较关键的一步，确保没有错误和警告，如果验证成功你将看到下边的提示：
 ```
 Analyzed 1 podspec.
@@ -67,6 +69,8 @@ NHEnDecryptor.podspec passed validation.
 然后你会在邮箱中收到一封验证邮件，点击验证链接，然后回到终端
 ##### step6 push podspec file
 `pod trunk push NHEnDecryptor.podspec`
+或
+`pod trunk push NHEnDecryptor.podspec --use-libraries`
 接下来就是稍微耐心等待一下
 ```
 - Data URL: https://raw.githubusercontent.com/CocoaPods/Specs/77452efc17bf18757e9a6ab9b09d5a3d08b3f649/Specs/NHEnDecryptor/0.0.3/NHEnDecryptor.podspec.json
